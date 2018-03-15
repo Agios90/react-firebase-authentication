@@ -9,7 +9,6 @@ const devConfig = {
   messagingSenderId: "820222735389"
 };
 
-
 if (!firebase.apps.length) {
   firebase.initializeApp(devConfig);
 }
