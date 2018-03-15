@@ -1,10 +1,5 @@
 # react-firebase-authentication
 
-[![Build Status](https://travis-ci.org/rwieruch/react-firebase-authentication.svg?branch=master)](https://travis-ci.org/rwieruch/react-firebase-authentication)
-
-* Found in [Taming the State in React](https://roadtoreact.com/course-details?courseId=TAMING_THE_STATE)
-* [Live](https://react-firebase-authentication.wieruch.com/)
-
 ## Features
 
 * uses:
@@ -23,7 +18,7 @@
 
 ## Installation
 
-* `git clone git@github.com:rwieruch/react-firebase-authentication.git`
+* `git clone https://github.com/Agios90/react-firebase-authentication.git`
 * `cd react-firebase-authentication`
 * `npm install`
 * `npm start`

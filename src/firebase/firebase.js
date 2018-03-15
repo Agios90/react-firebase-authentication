@@ -1,29 +1,17 @@
 import * as firebase from 'firebase';
 
-const prodConfig = {
-  apiKey: YOUR_API_KEY,
-  authDomain: YOUR_AUTH_DOMAIN,
-  databaseURL: YOUR_DATABASE_URL,
-  projectId: YOUR_PROJECT_ID,
-  storageBucket: '',
-  messagingSenderId: YOUR_MESSAGING_SENDER_ID,
-};
-
 const devConfig = {
-  apiKey: YOUR_API_KEY,
-  authDomain: YOUR_AUTH_DOMAIN,
-  databaseURL: YOUR_DATABASE_URL,
-  projectId: YOUR_PROJECT_ID,
-  storageBucket: '',
-  messagingSenderId: YOUR_MESSAGING_SENDER_ID,
+  apiKey: "AIzaSyCZ_91G9h5RRLbrnAs8P5etWyrDSXxp6Ak",
+  authDomain: "react-firebase-auth-angelos.firebaseapp.com",
+  databaseURL: "https://react-firebase-auth-angelos.firebaseio.com",
+  projectId: "react-firebase-auth-angelos",
+  torageBucket: "react-firebase-auth-angelos.appspot.com",
+  messagingSenderId: "820222735389"
 };
 
-const config = process.env.NODE_ENV === 'production'
-  ? prodConfig
-  : devConfig;
 
 if (!firebase.apps.length) {
-  firebase.initializeApp(config);
+  firebase.initializeApp(devConfig);
 }
 
 const db = firebase.database();
