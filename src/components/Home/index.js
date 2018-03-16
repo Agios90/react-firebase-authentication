@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import withAuthorization from '../Session/withAuthorization';
-import { db } from '../../firebase';
 
 class HomePage extends Component {
 
@@ -21,7 +20,7 @@ class HomePage extends Component {
               <input id="token" type="text"></input>
               <button onClick={enterGame}>Submit</button>
           <div id="framediv">
-            <iframe id="startframe" src="http://chess.mdnbar.com/#/" height="500" width="700" style={{"border":"none"}}></iframe>
+            <iframe id="startframe" title="React Chess" src="http://chess.mdnbar.com/#/" height="500" width="700" style={{"border":"none"}}></iframe>
          </div>
 
       </div>
